@@ -35,16 +35,5 @@ var server = http.createServer(function (req, res) {
 server.listen(3000,"127.0.0.1");
 
 function getMime(extName) {
-
-    // switch (extName) {
-    //     case ".html":
-    //         return "text/html";
-    //         break;
-    //     case "./jpg":
-    //         return "image/jpg";
-    //         break;
-    //     case ".css":
-    //         return "text/css";
-    //         break;
-    // }
+    //读取文件里面的mime类型，然后返回
 }
